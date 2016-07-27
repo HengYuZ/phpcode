@@ -8,6 +8,7 @@
  * 测试nowdocs跟heredocs的区别
  * nowdocs不能解析变量
  * 而heredocs 可以解析变量
+ *
  */
 
 $a = 'I am $a';
