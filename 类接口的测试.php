@@ -39,17 +39,6 @@ class Myclass implements a, b
         echo "hello, b interface's function ";
     }
 
-    /**
-    PHP不能重载，因为
-     *
-     *1.它能接收多余的参数，
-     * 2.它是弱类型
-     * 所以，php中的函数重载就不可以了
-    public function bfunction($str){
-
-    }
-     */
-
 }
 
 //输出接口变量，下面的是B接口继承A接口的变量value.
